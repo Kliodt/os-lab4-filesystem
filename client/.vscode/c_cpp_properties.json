@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "compilerPath": "/usr/bin/gcc",
+            "compilerArgs": ["-Wall", "-Wextra", "-Werror"],
+            "includePath": [
+                "${workspaceFolder}",
+                "/usr/src/linux-headers-6.1.0-30-common/include",
+                "/usr/src/linux-headers-6.1.0-30-common/arch/x86/include",
+                "/usr/src/linux-headers-6.1.0-30-amd64/include",
+                "/usr/src/linux-headers-6.1.0-30-amd64/arch/x86/include/generated",
+                "/usr/include"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
